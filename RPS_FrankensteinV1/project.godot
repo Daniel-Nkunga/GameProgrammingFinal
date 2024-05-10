@@ -1,0 +1,17 @@
+config_version=5
+
+[application]
+
+config/name="RPS_FrankensteinV1"
+run/main_scene="res://Scenes/main_menu.tscn"
+config/features=PackedStringArray("4.2", "GL Compatibility")
+config/icon="res://Assets/icon.svg"
+
+[autoload]
+
+Game="*res://Scripts/game.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
